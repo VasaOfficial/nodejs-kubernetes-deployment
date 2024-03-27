@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: nodeserver
-        image: chilipepper2232/node-app:latest
+        image: chilipepper2232/exercise-images:node-app
         ports:
         - containerPort: 3000
